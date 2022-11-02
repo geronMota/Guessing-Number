@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    
+}
+.firstPart{
+    display: flex;
+    margin-top: 5px;
+    padding: 10px;
+    width: 500px;
+    height: 125px;
+    background-color: rgb(68, 198, 68);
+    justify-content: space-between;
+}
+.firstPart p{
+    margin-right: 5px;
+    color: white;
+}
+.guessMyNumber{
+    position: relative;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(68, 198, 68);
+}
+.randomNumber{
+    position: absolute;
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    left: 585px;
+    bottom: 320px;
+
+}
+
+.secondPart{
+    margin-top: 5px;
+    width: 500px;
+    height: 225px;
+    background-color: rgb(68, 198, 68);
+}
+.btnRefresh{
+    display: flex;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: orange;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    box-shadow: 1px 1px 2px 0.5px grey;
+}
+.btnRefresh:hover{
+    background-color: rgb(243, 159, 4);
+}
+.content{
+    display: flex;
+    padding-top: 50px;
+
+}
+.subContent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 240px;
+    height: 150px;
+    
+}
+.tip{
+    width: 240px;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+}
+#guessNumber{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+}
+#check{
+    margin: auto;
+    width: 90px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px 0.5px grey;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+#check:hover{
+background-color: rgb(230, 226, 226);
+}
+.tip p,span{
+    margin: 20px;
+    color: white;
+    font-size: 15px;
+}
+#p{
+    
+    color: white;
+    font-size: 15px;
+}
+#pontos{
+    color: white;
+    font-size: 20px;
+}
